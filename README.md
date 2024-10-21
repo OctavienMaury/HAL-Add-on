@@ -1,6 +1,9 @@
 # Random HAL Article Extension
 
+![HAL Random Extansion](icons/icon128.png)
+
 This project is a fun browser extension that allows users to randomly select an article, thesis, or any other type of document hosted on HAL (Hyper Articles en Ligne).
+
 
 ## About the Project
 
