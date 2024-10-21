@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Random HAL article",
+    "version": "1.0",
+    "description": "This extension will show you a random article from HAL",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://api.archives-ouvertes.fr/*"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["popup.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
