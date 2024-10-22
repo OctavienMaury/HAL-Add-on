@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 200px; 
+    background: linear-gradient(to bottom right, #151074, #fb4201); 
+    border-radius: 10px;
+    padding: 15px; 
+    color: white; 
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px; /
+}
+
+input[type="checkbox"] {
+    margin-right: 5px; 
+    accent-color : #60246f
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: #60246f; 
+    color: white;  
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #02045c; 
+}
